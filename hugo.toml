@@ -1,0 +1,37 @@
+baseURL = '/'
+languageCode = 'vi-vn'
+title = 'Blog Lập Trình Mạng | Trần Hải Đăng'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "Blog Lập Trình Mạng"
+    author = "Trần Hải Đăng"
+    description = "Chia sẻ kiến thức Java & JavaScript chuyên sâu"
+    
+    # Kích hoạt giao diện căn giữa và các tính năng phụ
+    ShowReadingTime = true
+    ShowCodeCopyButtons = true
+    defaultTheme = "auto"
+    disableThemeToggle = false
+
+    [params.homeInfoParams]
+        Title = "Chào mừng đến với Blog của Đăng! 👋"
+        Content = "Nơi tổng hợp kiến thức về **Lập trình mạng**, tập trung vào **Java** và **JavaScript**."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+

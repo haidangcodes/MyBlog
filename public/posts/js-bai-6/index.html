@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà | Blog Lập Trình Mạng | Trần Hải Đăng</title>
+<meta name="keywords" content="">
+<meta name="description" content="Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await)
+Đường dẫn file: content/posts/js-async-await.md
+1. Tại sao phải dùng Bất đồng bộ (Asynchronous)?
+Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị &ldquo;đóng băng&rdquo; cho đến khi nhận được dữ liệu trả về.
+2. Minh họa cơ chế Event Loop
+
+Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.">
+<meta name="author" content="Trần Hải Đăng">
+<link rel="canonical" href="//localhost:1313/posts/js-bai-6/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d8fb6d5f3252da2f59968d00ed9fedca38b48671dee1d7f433884d687e10aa61.css" integrity="sha256-2PttXzJS2i9Zlo0A7Z/tyji0hnHe4df0M4hNaH4QqmE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/posts/js-bai-6/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="//localhost:1313/posts/js-bai-6/">
+  <meta property="og:site_name" content="Blog Lập Trình Mạng | Trần Hải Đăng">
+  <meta property="og:title" content="Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà">
+  <meta property="og:description" content="Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await) Đường dẫn file: content/posts/js-async-await.md
+1. Tại sao phải dùng Bất đồng bộ (Asynchronous)? Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị “đóng băng” cho đến khi nhận được dữ liệu trả về.
+2. Minh họa cơ chế Event Loop Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.">
+  <meta property="og:locale" content="vi-vn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-27T13:25:00+07:00">
+    <meta property="article:modified_time" content="2025-12-27T13:25:00+07:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà">
+<meta name="twitter:description" content="Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await)
+Đường dẫn file: content/posts/js-async-await.md
+1. Tại sao phải dùng Bất đồng bộ (Asynchronous)?
+Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị &ldquo;đóng băng&rdquo; cho đến khi nhận được dữ liệu trả về.
+2. Minh họa cơ chế Event Loop
+
+Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "//localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà",
+      "item": "//localhost:1313/posts/js-bai-6/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà",
+  "name": "Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà",
+  "description": "Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await) Đường dẫn file: content/posts/js-async-await.md\n1. Tại sao phải dùng Bất đồng bộ (Asynchronous)? Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị \u0026ldquo;đóng băng\u0026rdquo; cho đến khi nhận được dữ liệu trả về.\n2. Minh họa cơ chế Event Loop Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await) Đường dẫn file: content/posts/js-async-await.md\n1. Tại sao phải dùng Bất đồng bộ (Asynchronous)? Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị “đóng băng” cho đến khi nhận được dữ liệu trả về.\n2. Minh họa cơ chế Event Loop Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.\n3. Mã nguồn xử lý API chuyên nghiệp Sử dụng Async/Await giúp code xử lý mạng trông sạch sẽ và dễ hiểu hơn nhiều so với Callback truyền thống.\n// Hàm lấy dữ liệu thời tiết thực tế async function getWeather(city) { console.log(\"Đang tải dữ liệu thời tiết cho: \" + city); try { let response = await fetch(`https://api.weather.com/v1/${city}`); let data = await response.json(); // Đợi phản hồi từ mạng console.log(\"Nhiệt độ hiện tại: \", data.temp); } catch (error) { console.error(\"Lỗi khi kết nối đến Server mạng:\", error); } } getWeather(\"HoChiMinh\"); ",
+  "wordCount" : "175",
+  "inLanguage": "en",
+  "datePublished": "2025-12-27T13:25:00+07:00",
+  "dateModified": "2025-12-27T13:25:00+07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Trần Hải Đăng"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/posts/js-bai-6/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Lập Trình Mạng | Trần Hải Đăng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Blog Lập Trình Mạng | Trần Hải Đăng (Alt + H)">Blog Lập Trình Mạng | Trần Hải Đăng</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà
+    </h1>
+    <div class="post-meta"><span title='2025-12-27 13:25:00 +0700 +07'>December 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="bài-6-lập-trình-bất-đồng-bộ-trong-javascript-asyncawait">Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await)<a hidden class="anchor" aria-hidden="true" href="#bài-6-lập-trình-bất-đồng-bộ-trong-javascript-asyncawait">#</a></h3>
+<p><strong>Đường dẫn file:</strong> <code>content/posts/js-async-await.md</code></p>
+<h2 id="1-tại-sao-phải-dùng-bất-đồng-bộ-asynchronous">1. Tại sao phải dùng Bất đồng bộ (Asynchronous)?<a hidden class="anchor" aria-hidden="true" href="#1-tại-sao-phải-dùng-bất-đồng-bộ-asynchronous">#</a></h2>
+<p>Trong môi trường mạng, việc yêu cầu dữ liệu (Request) thường có độ trễ. Nếu chạy đồng bộ (Synchronous), toàn bộ giao diện web sẽ bị &ldquo;đóng băng&rdquo; cho đến khi nhận được dữ liệu trả về.</p>
+<h2 id="2-minh-họa-cơ-chế-event-loop">2. Minh họa cơ chế Event Loop<a hidden class="anchor" aria-hidden="true" href="#2-minh-họa-cơ-chế-event-loop">#</a></h2>
+<p><img alt="Cơ chế Event Loop trong JS" loading="lazy" src="https://miro.medium.com/max/1400/1*iH6_8Z_9pL5YpE-q6abcde.png">
+<em>Hình 2: Cách JavaScript xử lý các tác vụ mạng dưới nền mà không chặn luồng chính.</em></p>
+<h2 id="3-mã-nguồn-xử-lý-api-chuyên-nghiệp">3. Mã nguồn xử lý API chuyên nghiệp<a hidden class="anchor" aria-hidden="true" href="#3-mã-nguồn-xử-lý-api-chuyên-nghiệp">#</a></h2>
+<p>Sử dụng <code>Async/Await</code> giúp code xử lý mạng trông sạch sẽ và dễ hiểu hơn nhiều so với <code>Callback</code> truyền thống.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Hàm lấy dữ liệu thời tiết thực tế
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getWeather</span>(<span style="color:#a6e22e">city</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Đang tải dữ liệu thời tiết cho: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">city</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">response</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">`https://api.weather.com/v1/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">city</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>(); <span style="color:#75715e">// Đợi phản hồi từ mạng
+</span></span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Nhiệt độ hiện tại: &#34;</span>, <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">temp</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Lỗi khi kết nối đến Server mạng:&#34;</span>, <span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">getWeather</span>(<span style="color:#e6db74">&#34;HoChiMinh&#34;</span>);
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Blog Lập Trình Mạng | Trần Hải Đăng</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+/* =====================
+   GLOBAL – PHONG CÁCH HỌC THUẬT & TƯƠNG THÍCH DARK MODE
+===================== */
+:root {
+    --nav-width: 760px;
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    /* Sử dụng biến của hệ thống để không bị lỗi màu font */
+    color: var(--content); 
+    background-color: var(--theme);
+}
+
+/* Giữ layout hẹp – dễ đọc như paper */
+.main {
+    max-width: var(--nav-width);
+    margin: auto;
+    padding: 0 1rem;
+}
+
+/* =====================
+   HEADER / NAV – STICKY & CLEAN
+===================== */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--theme);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 0;
+}
+
+.nav {
+    max-width: var(--nav-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary) !important;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.menu a {
+    font-weight: 500;
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.menu a:hover, .menu a.active {
+    color: var(--primary);
+}
+
+/* Biểu tượng trước menu */
+.menu a[href="/"]::before { content: "▸ "; opacity: 0.5; }
+.menu a[href^="/posts"]::before { content: "✦ "; opacity: 0.5; }
+.menu a[href^="/about"]::before { content: "◆ "; opacity: 0.5; }
+
+/* =====================
+   POST ENTRY & CONTENT
+===================== */
+.post-entry {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.post-content {
+    color: var(--content);
+}
+
+.post-content h2, .post-content h3 {
+    color: var(--primary);
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* =====================
+   ABOUT PAGE – AVATAR & INFO
+===================== */
+.about-avatar {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 3rem;
+}
+
+.about-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Fix lỗi màu cho các danh sách (Kỹ năng, Công cụ) */
+.post-content ul li {
+    margin-bottom: 0.5rem;
+    color: var(--content);
+}
+
+/* =====================
+   CODE BLOCKS
+===================== */
+code {
+    background: var(--code-bg);
+    color: var(--primary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Fira Code", monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    background: var(--code-bg) !important;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    opacity: 0.6;
+}
