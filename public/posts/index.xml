@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Blog Lập Trình Mạng | Trần Hải Đăng</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/MyBlog/posts/</link>
     <description>Recent content in Posts on Blog Lập Trình Mạng | Trần Hải Đăng</description>
     <generator>Hugo -- 0.153.3</generator>
     <language>vi-vn</language>
     <lastBuildDate>Sat, 27 Dec 2025 13:40:00 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MyBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tổng kết đồ án và Xu hướng Lập trình mạng</title>
-      <link>//localhost:1313/posts/js-bai-9/</link>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-9/</link>
       <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/js-bai-9/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-9/</guid>
       <description>&lt;h2 id=&#34;1-nhìn-lại-quá-trình-thực-hiện&#34;&gt;1. Nhìn lại quá trình thực hiện&lt;/h2&gt;
 &lt;p&gt;Đồ án này đã giúp tôi (Trần Hải Đăng) hiểu rõ từ cách thiết lập hạ tầng mạng Cisco đến việc triển khai mã nguồn trên Java và JavaScript.&lt;/p&gt;
 &lt;h2 id=&#34;2-kết-quả-đạt-được&#34;&gt;2. Kết quả đạt được&lt;/h2&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>WebSockets: Giao tiếp hai chiều thời gian thực</title>
-      <link>//localhost:1313/posts/js-bai-8/</link>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-8/</link>
       <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/js-bai-8/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-8/</guid>
       <description>&lt;h3 id=&#34;bài-8-websockets-giao-tiếp-hai-chiều&#34;&gt;Bài 8: WebSockets: Giao tiếp hai chiều&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;File:&lt;/strong&gt; &lt;code&gt;js-websocket.md&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-websocket-vs-http&#34;&gt;1. WebSocket vs HTTP&lt;/h2&gt;
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>Fetch API: Kết nối với REST Server</title>
-      <link>//localhost:1313/posts/js-bai-7/</link>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-7/</link>
       <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/js-bai-7/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-7/</guid>
       <description>&lt;h2 id=&#34;1-fetch-api-là-gì&#34;&gt;1. Fetch API là gì?&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; là phương thức hiện đại trong JavaScript giúp bạn thực hiện các yêu cầu HTTP (GET, POST&amp;hellip;) một cách dễ dàng.&lt;/p&gt;
 &lt;h2 id=&#34;2-cách-sử-dụng-cơ-bản&#34;&gt;2. Cách sử dụng cơ bản&lt;/h2&gt;
@@ -55,9 +55,9 @@
     </item>
     <item>
       <title>Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà</title>
-      <link>//localhost:1313/posts/js-bai-6/</link>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-6/</link>
       <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/js-bai-6/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-6/</guid>
       <description>&lt;h3 id=&#34;bài-6-lập-trình-bất-đồng-bộ-trong-javascript-asyncawait&#34;&gt;Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Đường dẫn file:&lt;/strong&gt; &lt;code&gt;content/posts/js-async-await.md&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-tại-sao-phải-dùng-bất-đồng-bộ-asynchronous&#34;&gt;1. Tại sao phải dùng Bất đồng bộ (Asynchronous)?&lt;/h2&gt;
@@ -68,9 +68,9 @@
     </item>
     <item>
       <title>Xử lý đa luồng (Multi-threading) cho Server</title>
-      <link>//localhost:1313/posts/java-bai-5/</link>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-5/</link>
       <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/java-bai-5/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-5/</guid>
       <description>&lt;h2 id=&#34;1-tại-sao-cần-đa-luồng&#34;&gt;1. Tại sao cần đa luồng?&lt;/h2&gt;
 &lt;p&gt;Một Server thông thường chỉ xử lý được một Client tại một thời điểm. Để phục vụ hàng ngàn người dùng cùng lúc, chúng ta cần kỹ thuật Multi-threading (Đa luồng).&lt;/p&gt;
 &lt;h2 id=&#34;2-cách-hoạt-động&#34;&gt;2. Cách hoạt động&lt;/h2&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>Giao thức UDP và Datagram: Tốc độ tối đa</title>
-      <link>//localhost:1313/posts/java-bai-4/</link>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-4/</link>
       <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/java-bai-4/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-4/</guid>
       <description>&lt;h2 id=&#34;1-đặc-điểm-của-udp&#34;&gt;1. Đặc điểm của UDP&lt;/h2&gt;
 &lt;p&gt;Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.&lt;/p&gt;
 &lt;h2 id=&#34;2-ứng-dụng-thực-tế&#34;&gt;2. Ứng dụng thực tế&lt;/h2&gt;
@@ -94,9 +94,9 @@
     </item>
     <item>
       <title>Lập trình TCP Socket: Cơ chế bắt tay 3 bước và truyền tin</title>
-      <link>//localhost:1313/posts/java-bai-3/</link>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-3/</link>
       <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/java-bai-3/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-3/</guid>
       <description>&lt;h2 id=&#34;1-bản-chất-của-giao-thức-tcp&#34;&gt;1. Bản chất của giao thức TCP&lt;/h2&gt;
 &lt;p&gt;TCP (Transmission Control Protocol) là giao thức hướng kết nối, đảm bảo dữ liệu truyền đi không bị lỗi, đúng thứ tự và không bị mất mát. Trước khi trao đổi dữ liệu, Client và Server phải thực hiện quy trình &amp;ldquo;Bắt tay 3 bước&amp;rdquo; (3-way handshake) để thiết lập kênh truyền.&lt;/p&gt;
 &lt;h2 id=&#34;2-hình-ảnh-minh-họa-quy-trình&#34;&gt;2. Hình ảnh minh họa quy trình&lt;/h2&gt;
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền</title>
-      <link>//localhost:1313/posts/java-bai-2/</link>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-2/</link>
       <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/java-bai-2/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-2/</guid>
       <description>&lt;h2 id=&#34;1-giới-thiệu-về-lớp-inetaddress&#34;&gt;1. Giới thiệu về lớp InetAddress&lt;/h2&gt;
 &lt;p&gt;Trong Java, lớp &lt;code&gt;InetAddress&lt;/code&gt; là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.&lt;/p&gt;
 &lt;h2 id=&#34;2-phân-giải-tên-miền-dns-lookup&#34;&gt;2. Phân giải tên miền (DNS Lookup)&lt;/h2&gt;
@@ -115,9 +115,9 @@
     </item>
     <item>
       <title>Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco</title>
-      <link>//localhost:1313/posts/java-bai-1/</link>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-1/</link>
       <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/java-bai-1/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-1/</guid>
       <description>&lt;h2 id=&#34;1-giới-thiệu-về-lập-trình-mạng&#34;&gt;1. Giới thiệu về Lập trình mạng&lt;/h2&gt;
 &lt;p&gt;Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.&lt;/p&gt;
 &lt;h2 id=&#34;2-mô-hình-client-server-cơ-bản&#34;&gt;2. Mô hình Client-Server cơ bản&lt;/h2&gt;

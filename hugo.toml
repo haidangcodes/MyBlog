@@ -1,4 +1,5 @@
-baseURL = '/'
+baseURL = 'https://haidangcodes.github.io/MyBlog/'
+
 languageCode = 'vi-vn'
 title = 'Blog Lập Trình Mạng | Trần Hải Đăng'
 theme = "PaperMod"
