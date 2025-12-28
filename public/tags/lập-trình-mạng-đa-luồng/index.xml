@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lập Trình Mạng Đa Luồng on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-%C4%91a-lu%E1%BB%93ng/</link>
+    <description>Recent content in Lập Trình Mạng Đa Luồng on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:20:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-%C4%91a-lu%E1%BB%93ng/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xử lý đa luồng (Multi-threading) cho Server TCP trong Java</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-5/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-5/</guid>
+      <description>&lt;h2 id=&#34;1-tại-sao-cần-đa-luồng&#34;&gt;1. Tại sao cần đa luồng?&lt;/h2&gt;
+&lt;p&gt;Một Server thông thường chỉ xử lý được một Client tại một thời điểm. Để phục vụ hàng ngàn người dùng cùng lúc, chúng ta cần kỹ thuật Multi-threading (Đa luồng).&lt;/p&gt;
+&lt;h2 id=&#34;2-cách-hoạt-động&#34;&gt;2. Cách hoạt động&lt;/h2&gt;
+&lt;p&gt;Khi một Client mới kết nối, Server sẽ tạo ra một luồng (&lt;code&gt;Thread&lt;/code&gt;) riêng để phục vụ Client đó, trong khi luồng chính tiếp tục đợi kết nối tiếp theo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

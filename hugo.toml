@@ -1,37 +1,99 @@
 baseURL = 'https://haidangcodes.github.io/MyBlog/'
 languageCode = 'vi-vn'
-title = 'Blog Lập Trình Mạng | Trần Hải Đăng'
+title = 'DangTran | Technical Blog'
 theme = "PaperMod"
+
+# Cấu hình tiếng Việt cho các nút hệ thống
+defaultContentLanguage = "vi"
 
 [params]
     env = "production"
-    title = "Blog Lập Trình Mạng"
+    title = "DangTran.Dev"
     author = "Trần Hải Đăng"
-    description = "Chia sẻ kiến thức Java & JavaScript chuyên sâu"
-    
-    # Kích hoạt giao diện căn giữa và các tính năng phụ
+    description = "Software Engineering | Java Ecosystem | Network Programming | Backend & Infrastructure"
+
+    # Nhãn tiêu đề trang web
+    label = { text = "DangTran.Dev", displayIcon = true }
+
+    # --- CẤU HÌNH ẢNH BÌA ---
+    [params.cover]
+        linkFullImages = true
+        responsiveImages = true
+        hidden = false       
+        hiddenInList = false 
+        hiddenInSingle = false
+
+    # Tính năng hỗ trợ bài viết Technical
     ShowReadingTime = true
     ShowCodeCopyButtons = true
-    defaultTheme = "auto"
+    ShowBreadCrumbs = true
+    ShowPostNavLinks = true
+    ShowShareButtons = ["twitter", "linkedin", "reddit"]
+    ShowToc = true           
+    TocOpen = true           
+    UseHugoToc = true        
+
+    defaultTheme = "dark"    
     disableThemeToggle = false
 
-    [params.homeInfoParams]
-        Title = "Chào mừng đến với Blog của Đăng! 👋"
-        Content = "Nơi tổng hợp kiến thức về **Lập trình mạng**, tập trung vào **Java** và **JavaScript**."
+    # Giao diện Trang chủ (Profile Mode)
+    [params.profileMode]
+        enabled = true
+        title = "Xin chào, mình là Đăng! 👨‍💻"
+        subtitle = """
+> `System.out.println("Hello, World!");`  
+Sinh viên Kỹ thuật phần mềm • **Java Ecosystem** Định hướng Network Infrastructure & Backend Development.  
+**_Status: Coding in progress..._**
+        """
+        imageUrl = "images/avatar.png" 
+        imageTitle = "Trần Hải Đăng"
+        imageWidth = 150
+        imageHeight = 150
 
+        [[params.profileMode.buttons]]
+            name = "Đọc Blog"
+            url = "posts"
+        [[params.profileMode.buttons]]
+            name = "Giới thiệu"
+            url = "about"
+
+    # Social Icons
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/haidangcodes"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/haidangcodes"
+
+# --- CẤU HÌNH MENU HEADER ---
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
+    [[menu.main]]
+        name = "Bài viết"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        name = "Chủ đề"      # Thêm mục Categories tại đây
+        url = "/categories/"
+        weight = 15
+    [[menu.main]]
+        name = "Tìm kiếm"
+        url = "/search/"
+        weight = 20
+    [[menu.main]]
+        name = "Giới thiệu"
+        url = "/about/"
+        weight = 30
+    [[menu.main]]
+        name = "Liên hệ"
+        url = "/contact/"
+        weight = 40
 
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 20
+# --- CẤU HÌNH ĐẦU RA ---
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
 
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 30
-
+# --- CHO PHÉP CHẠY HTML (FORM LIÊN HỆ VÀ STYLE TÙY CHỈNH) ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Quan trọng để hiển thị form liên hệ

@@ -3,43 +3,389 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/MyBlog/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/contact/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/backend/</loc>
     <lastmod>2025-12-27T13:40:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MyBlog/posts/</loc>
+    <loc>http://localhost:1313/MyBlog/tags/backend-javascript/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/bun/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/bun-1.x/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/bun-vs-deno-vs-node/</loc>
     <lastmod>2025-12-27T13:40:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MyBlog/posts/js-bai-9/</loc>
     <lastmod>2025-12-27T13:40:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/c%C3%B4ng-ngh%E1%BB%87-m%E1%BB%9Bi/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/deno/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/deno-2/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/javascript/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/javascript-runtime/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/node.js/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/node.js-alternative/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/performance-benchmark-2025/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/posts/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/so-s%C3%A1nh-runtime-2025/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/typescript-runtime/</loc>
+    <lastmod>2025-12-27T13:40:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/chat-app-websocket/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/frontend/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/frontend-backend-real-time/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/giao-ti%E1%BA%BFp-hai-chi%E1%BB%81u/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/live-update-js/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/node.js-websocket/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/push-data-real-time/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/real-time/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/real-time-communication/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/socket.io-alternative/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/websocket/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/websocket-client-server/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/websocket-javascript/</loc>
+    <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MyBlog/posts/js-bai-8/</loc>
     <lastmod>2025-12-27T13:35:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/api-integration-js/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/async-await-fetch/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/fetch-api/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MyBlog/posts/js-bai-7/</loc>
     <lastmod>2025-12-27T13:30:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/frontend-networking/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/get-post-fetch/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/http-request-js/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/javascript-fetch/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/javascript-modern/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/promise-fetch/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/rest-api/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/rest-api-javascript/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/web-development-js/</loc>
+    <lastmod>2025-12-27T13:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/async-await-javascript/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/callback-hell/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/event-loop-js/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/fetch-api-js/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/frontend-backend-async/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/javascript-asynchronous/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/javascript-networking/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-js/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MyBlog/posts/js-bai-6/</loc>
     <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/node.js/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/node.js-async/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/non-blocking-io/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/promise-javascript/</loc>
+    <lastmod>2025-12-27T13:25:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/concurrent-server-java/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/%C4%91a-lu%E1%BB%93ng/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/%C4%91a-lu%E1%BB%93ng-server/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/executorservice-server/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/java/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/java-networking/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-%C4%91a-lu%E1%BB%93ng/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/multi-threading-java/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/network-programming/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/serversocket-java/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/socket-programming-%C4%91a-lu%E1%BB%93ng/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/thread-per-client/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/thread-pool-java/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MyBlog/posts/java-bai-5/</loc>
     <lastmod>2025-12-27T13:20:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/x%E1%BB%AD-l%C3%BD-nhi%E1%BB%81u-client-%C4%91%E1%BB%93ng-th%E1%BB%9Di/</loc>
+    <lastmod>2025-12-27T13:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/datagrampacket-java/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/datagramsocket-java/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/game-online-udp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-kh%C3%B4ng-k%E1%BA%BFt-n%E1%BB%91i/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/giao-th%E1%BB%A9c-m%E1%BA%A1ng/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MyBlog/posts/java-bai-4/</loc>
     <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-udp-java/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/livestream-udp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/t%E1%BB%91c-%C4%91%E1%BB%99-m%E1%BA%A1ng-udp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/udp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/udp-vs-tcp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/user-datagram-protocol/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/voip-udp/</loc>
+    <lastmod>2025-12-27T13:15:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/b%E1%BA%AFt-tay-3-b%C6%B0%E1%BB%9Bc-tcp/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/client-server-tcp/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-tcp/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-tcp/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MyBlog/posts/java-bai-3/</loc>
     <lastmod>2025-12-27T13:10:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/socket-java/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/socket-programming-java/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/tcp-3-way-handshake/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/tcp-socket/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/transmission-control-protocol/</loc>
+    <lastmod>2025-12-27T13:10:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/dns-lookup-java/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip-java/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/getbyname/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/getlocalhost/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/inetaddress/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/ipv4-ipv6-java/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/java-network-programming/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MyBlog/posts/java-bai-2/</loc>
     <lastmod>2025-12-27T13:05:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-java/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/ph%C3%A2n-gi%E1%BA%A3i-t%C3%AAn-mi%E1%BB%81n/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/unknownhostexception/</loc>
+    <lastmod>2025-12-27T13:05:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/cisco/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/cisco-networking/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/client-server/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/ki%E1%BA%BFn-tr%C3%BAc-m%E1%BA%A1ng-cisco/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MyBlog/posts/java-bai-1/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh-c%C6%A1-b%E1%BA%A3n/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/m%C3%B4-h%C3%ACnh-client-server/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/network-programming/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/port-m%E1%BA%A1ng/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/sdn/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/software-defined-networking/</loc>
+    <lastmod>2025-12-27T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/tags/t%E1%BB%B1-%C4%91%E1%BB%99ng-h%C3%B3a-m%E1%BA%A1ng/</loc>
     <lastmod>2025-12-27T13:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MyBlog/about/</loc>
     <lastmod>2025-12-27T12:44:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MyBlog/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/MyBlog/tags/</loc>
+    <loc>http://localhost:1313/MyBlog/search/</loc>
   </url>
 </urlset>

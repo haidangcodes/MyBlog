@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>So Sánh Runtime 2025 on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/so-s%C3%A1nh-runtime-2025/</link>
+    <description>Recent content in So Sánh Runtime 2025 on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:40:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/so-s%C3%A1nh-runtime-2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bun vs Deno vs Node.js: Runtime JavaScript nào đáng dùng nhất cho dự án 2025–2026?</title>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-9/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-9/</guid>
+      <description>&lt;h3 id=&#34;1-tổng-quan-nhanh-về-3-runtime-cuối-2025&#34;&gt;1. Tổng quan nhanh về 3 runtime (cuối 2025)&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Runtime&lt;/th&gt;
+          &lt;th&gt;Engine chính&lt;/th&gt;
+          &lt;th&gt;Năm ra mắt&lt;/th&gt;
+          &lt;th&gt;Điểm nổi bật chính 2025&lt;/th&gt;
+          &lt;th&gt;Độ phổ biến (ước tính)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Node.js&lt;/td&gt;
+          &lt;td&gt;V8 (Chrome)&lt;/td&gt;
+          &lt;td&gt;2009&lt;/td&gt;
+          &lt;td&gt;Ổn định, ecosystem khổng lồ, LTS dài hạn&lt;/td&gt;
+          &lt;td&gt;★★★★★ (80–90%)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Deno&lt;/td&gt;
+          &lt;td&gt;V8&lt;/td&gt;
+          &lt;td&gt;2018&lt;/td&gt;
+          &lt;td&gt;Secure-by-default, native TS, không node_modules&lt;/td&gt;
+          &lt;td&gt;★★★★ (tăng mạnh)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bun&lt;/td&gt;
+          &lt;td&gt;JavaScriptCore (Safari)&lt;/td&gt;
+          &lt;td&gt;2022&lt;/td&gt;
+          &lt;td&gt;Tốc độ cực cao, bundler/test/runner tích hợp&lt;/td&gt;
+          &lt;td&gt;★★★★ (tăng nhanh nhất)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Dưới đây là một số biểu đồ benchmark hiệu suất thực tế từ các nguồn uy tín năm 2025 (HTTP throughput, startup time):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -150,3 +150,74 @@ pre {
     text-align: center;
     opacity: 0.6;
 }
+.post-taxonomies {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+.post-categories strong,
+.post-tags strong {
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+
+.post-categories a,
+.post-tags a {
+    margin-right: 0.8rem;
+    padding: 0.2rem 0.6rem;
+    background: var(--entry);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-categories a:hover,
+.post-tags a:hover {
+    background: var(--primary);
+    color: var(--theme) !important;
+}
+.cursor {
+    animation: blink 1s infinite;
+    color: #00ff00;
+    font-weight: bold;
+}
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+/* Ảnh cover rộng full width, đẹp hơn trên trang Liên hệ */
+.single .post-cover img,
+.page .post-cover img {  /* Áp dụng cho single và page (contact là page) */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: none;
+    object-fit: cover;
+    height: 500px; /* Tăng độ cao cho ấn tượng hơn */
+}
+
+/* Loại bo góc và margin để ảnh liền mạch */
+.single .post-cover,
+.page .post-cover {
+    margin: 0 0 3rem 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+/* Caption overlay đẹp hơn */
+.post-caption {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.6);
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}

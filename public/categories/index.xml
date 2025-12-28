@@ -1,11 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Blog Lập Trình Mạng | Trần Hải Đăng</title>
+    <title>Categories on DangTran | Technical Blog</title>
     <link>http://localhost:1313/MyBlog/categories/</link>
-    <description>Recent content in Categories on Blog Lập Trình Mạng | Trần Hải Đăng</description>
+    <description>Recent content in Categories on DangTran | Technical Blog</description>
     <generator>Hugo -- 0.153.3</generator>
     <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:40:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/MyBlog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:1313/MyBlog/categories/backend/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Công Nghệ Mới</title>
+      <link>http://localhost:1313/MyBlog/categories/c%C3%B4ng-ngh%E1%BB%87-m%E1%BB%9Bi/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/c%C3%B4ng-ngh%E1%BB%87-m%E1%BB%9Bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/MyBlog/categories/javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Mạng</title>
+      <link>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:1313/MyBlog/categories/frontend/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-Time</title>
+      <link>http://localhost:1313/MyBlog/categories/real-time/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/real-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST API</title>
+      <link>http://localhost:1313/MyBlog/categories/rest-api/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/rest-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>http://localhost:1313/MyBlog/categories/node.js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Đa Luồng</title>
+      <link>http://localhost:1313/MyBlog/categories/%C4%91a-lu%E1%BB%93ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/%C4%91a-lu%E1%BB%93ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/MyBlog/categories/java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Programming</title>
+      <link>http://localhost:1313/MyBlog/categories/network-programming/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/network-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giao Thức Mạng</title>
+      <link>http://localhost:1313/MyBlog/categories/giao-th%E1%BB%A9c-m%E1%BA%A1ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/giao-th%E1%BB%A9c-m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cisco Networking</title>
+      <link>http://localhost:1313/MyBlog/categories/cisco-networking/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/cisco-networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình</title>
+      <link>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/l%E1%BA%ADp-tr%C3%ACnh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mạng Máy Tính</title>
+      <link>http://localhost:1313/MyBlog/categories/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/categories/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

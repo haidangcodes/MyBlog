@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="vi" dir="auto" data-theme="auto">
 
 <head><script src="/MyBlog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=MyBlog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco | Blog Lập Trình Mạng | Trần Hải Đăng</title>
-<meta name="keywords" content="">
+<title>Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco | DangTran | Technical Blog</title>
+<meta name="keywords" content="Lập trình mạng, Network Programming, Client-Server, Mô hình Client-Server, Địa chỉ IP, Port mạng, Cisco, SDN, Software-Defined Networking, Kiến trúc mạng Cisco, Tự động hóa mạng, Mạng máy tính cơ bản">
 <meta name="description" content="1. Giới thiệu về Lập trình mạng
 Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.
 2. Mô hình Client-Server cơ bản
 Mô hình Client-Server là nền tảng của hầu hết các ứng dụng mạng.">
 <meta name="author" content="Trần Hải Đăng">
 <link rel="canonical" href="http://localhost:1313/MyBlog/posts/java-bai-1/">
-<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.d8fb6d5f3252da2f59968d00ed9fedca38b48671dee1d7f433884d687e10aa61.css" integrity="sha256-2PttXzJS2i9Zlo0A7Z/tyji0hnHe4df0M4hNaH4QqmE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.96f67bd2474ff8799091e33c981b37706e38d04791abde64b3e42b9c9b8a3027.css" integrity="sha256-lvZ70kdP&#43;HmQkeM8mBs3cG440EeRq95ks&#43;QrnJuKMCc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/MyBlog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/MyBlog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/MyBlog/favicon-32x32.png">
@@ -21,7 +21,7 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
 <link rel="mask-icon" href="http://localhost:1313/MyBlog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/MyBlog/posts/java-bai-1/">
+<link rel="alternate" hreflang="vi" href="http://localhost:1313/MyBlog/posts/java-bai-1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
     }
 
 </script><meta property="og:url" content="http://localhost:1313/MyBlog/posts/java-bai-1/">
-  <meta property="og:site_name" content="Blog Lập Trình Mạng | Trần Hải Đăng">
+  <meta property="og:site_name" content="DangTran | Technical Blog">
   <meta property="og:title" content="Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco">
   <meta property="og:description" content="1. Giới thiệu về Lập trình mạng Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.
 2. Mô hình Client-Server cơ bản Mô hình Client-Server là nền tảng của hầu hết các ứng dụng mạng.">
@@ -83,7 +83,15 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-27T13:00:00+07:00">
     <meta property="article:modified_time" content="2025-12-27T13:00:00+07:00">
-<meta name="twitter:card" content="summary">
+    <meta property="article:tag" content="Lập Trình Mạng">
+    <meta property="article:tag" content="Network Programming">
+    <meta property="article:tag" content="Client-Server">
+    <meta property="article:tag" content="Mô Hình Client-Server">
+    <meta property="article:tag" content="Địa Chỉ IP">
+    <meta property="article:tag" content="Port Mạng">
+    <meta property="og:image" content="https://haidangcodes.github.io/MyBlog/images/post1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://haidangcodes.github.io/MyBlog/images/post1.jpg">
 <meta name="twitter:title" content="Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco">
 <meta name="twitter:description" content="1. Giới thiệu về Lập trình mạng
 Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.
@@ -119,12 +127,12 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
   "name": "Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco",
   "description": "1. Giới thiệu về Lập trình mạng Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.\n2. Mô hình Client-Server cơ bản Mô hình Client-Server là nền tảng của hầu hết các ứng dụng mạng.\n",
   "keywords": [
-    
+    "Lập trình mạng", "Network Programming", "Client-Server", "Mô hình Client-Server", "Địa chỉ IP", "Port mạng", "Cisco", "SDN", "Software-Defined Networking", "Kiến trúc mạng Cisco", "Tự động hóa mạng", "Mạng máy tính cơ bản"
   ],
   "articleBody": "1. Giới thiệu về Lập trình mạng Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.\n2. Mô hình Client-Server cơ bản Mô hình Client-Server là nền tảng của hầu hết các ứng dụng mạng.\nClient (Máy khách): Yêu cầu dịch vụ từ Server. Server (Máy chủ): Cung cấp dịch vụ theo yêu cầu của Client. Hai thành phần này giao tiếp bằng cách sử dụng các giao thức mạng chuẩn như HTTP, TCP/IP. Minh họa mô hình Client-Server Ảnh: Minh họa cơ bản về cách Client và Server tương tác.\n3. Vai trò của IP và Port Địa chỉ IP: Giống như địa chỉ nhà của một thiết bị trên mạng, giúp dữ liệu tìm đúng đường đến đích. Cổng (Port): Giống như số phòng trong ngôi nhà, chỉ định ứng dụng cụ thể nào trên thiết bị IP đó sẽ xử lý dữ liệu. 4. Tại sao lập trình mạng quan trọng với Cisco? Cisco là nhà cung cấp hàng đầu về phần cứng mạng. Với sự phát triển của phần mềm hóa mạng (SDN - Software-Defined Networking), khả năng lập trình để điều khiển, tự động hóa và quản lý các thiết bị Cisco trở nên vô cùng quan trọng. Lập trình mạng giúp chúng ta khai thác tối đa sức mạnh của hạ tầng Cisco.\n",
   "wordCount" : "270",
-  "inLanguage": "en",
-  "datePublished": "2025-12-27T13:00:00+07:00",
+  "inLanguage": "vi",
+  "image":"https://haidangcodes.github.io/MyBlog/images/post1.jpg","datePublished": "2025-12-27T13:00:00+07:00",
   "dateModified": "2025-12-27T13:00:00+07:00",
   "author":{
     "@type": "Person",
@@ -136,7 +144,7 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Lập Trình Mạng | Trần Hải Đăng",
+    "name": "DangTran | Technical Blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/MyBlog/favicon.ico"
@@ -149,7 +157,7 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="Blog Lập Trình Mạng | Trần Hải Đăng (Alt + H)">Blog Lập Trình Mạng | Trần Hải Đăng</a>
+            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="DangTran.Dev (Alt + H)">DangTran.Dev</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -175,18 +183,28 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/MyBlog/" title="Home">
-                    <span>Home</span>
+                <a href="http://localhost:1313/MyBlog/posts/" title="Bài viết">
+                    <span>Bài viết</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/MyBlog/categories/" title="Chủ đề">
+                    <span>Chủ đề</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/MyBlog/search/" title="Tìm kiếm">
+                    <span>Tìm kiếm</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/contact/" title="Liên hệ">
+                    <span>Liên hệ</span>
                 </a>
             </li>
         </ul>
@@ -200,10 +218,16 @@ Mô hình Client-Server là nền tảng của hầu hết các ứng dụng m�
     <h1 class="post-title entry-hint-parent">
       Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco
     </h1>
-    <div class="post-meta"><span title='2025-12-27 13:00:00 +0700 +07'>December 27, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
+    <div class="post-meta"><span title='2025-12-27 13:00:00 +0700 +07'>27 tháng 12, 2025</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
 
 </div>
   </header> 
+<figure class="entry-cover">
+        <a href="https://haidangcodes.github.io/MyBlog/images/post1.jpg" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="https://haidangcodes.github.io/MyBlog/images/post1.jpg" alt="Kiến trúc mạng Cisco">
+        </a>
+        <figcaption>Nguồn: Blog Lập Trình Mạng</figcaption>
+</figure>
   <div class="post-content"><h2 id="1-giới-thiệu-về-lập-trình-mạng">1. Giới thiệu về Lập trình mạng<a hidden class="anchor" aria-hidden="true" href="#1-giới-thiệu-về-lập-trình-mạng">#</a></h2>
 <p>Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.</p>
 <h2 id="2-mô-hình-client-server-cơ-bản">2. Mô hình Client-Server cơ bản<a hidden class="anchor" aria-hidden="true" href="#2-mô-hình-client-server-cơ-bản">#</a></h2>
@@ -229,13 +253,25 @@ Hai thành phần này giao tiếp bằng cách sử dụng các giao thức m�
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/">Lập Trình Mạng</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/network-programming/">Network Programming</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/client-server/">Client-Server</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/m%C3%B4-h%C3%ACnh-client-server/">Mô Hình Client-Server</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip/">Địa Chỉ IP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/port-m%E1%BA%A1ng/">Port Mạng</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/cisco/">Cisco</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/sdn/">SDN</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/software-defined-networking/">Software-Defined Networking</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/ki%E1%BA%BFn-tr%C3%BAc-m%E1%BA%A1ng-cisco/">Kiến Trúc Mạng Cisco</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/t%E1%BB%B1-%C4%91%E1%BB%99ng-h%C3%B3a-m%E1%BA%A1ng/">Tự Động Hóa Mạng</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh-c%C6%A1-b%E1%BA%A3n/">Mạng Máy Tính Cơ Bản</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">Blog Lập Trình Mạng | Trần Hải Đăng</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">DangTran | Technical Blog</a></span> · 
 
     <span>
         Powered by
@@ -308,53 +344,6 @@ Hai thành phần này giao tiếp bằng cách sử dụng các giao thức m�
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 

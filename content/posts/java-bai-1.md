@@ -2,6 +2,14 @@
 date = '2025-12-27T13:00:00+07:00'
 draft = false
 title = 'Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco'
+tags = ["Lập trình mạng", "Network Programming", "Client-Server", "Mô hình Client-Server", "Địa chỉ IP", "Port mạng", "Cisco", "SDN", "Software-Defined Networking", "Kiến trúc mạng Cisco", "Tự động hóa mạng", "Mạng máy tính cơ bản"]
+categories = ["Mạng máy tính", "Cisco Networking", "Lập trình"]
+
+[cover]
+    image = "https://haidangcodes.github.io/MyBlog/images/post1.jpg"  
+    alt = "Kiến trúc mạng Cisco"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 
 ## 1. Giới thiệu về Lập trình mạng

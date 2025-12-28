@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="vi" dir="auto" data-theme="auto">
 
 <head><script src="/MyBlog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=MyBlog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền | Blog Lập Trình Mạng | Trần Hải Đăng</title>
-<meta name="keywords" content="">
+<title>Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền | DangTran | Technical Blog</title>
+<meta name="keywords" content="Java Networking, InetAddress, Phân giải tên miền, DNS Lookup Java, Địa chỉ IP Java, Java Network Programming, IPv4 IPv6 Java, getByName, getLocalHost, UnknownHostException, Lập trình mạng Java">
 <meta name="description" content="1. Giới thiệu về lớp InetAddress
 Trong Java, lớp InetAddress là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.
 2. Phân giải tên miền (DNS Lookup)
 DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như www.cisco.com) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp InetAddress của Java hỗ trợ chức năng này rất tốt.">
 <meta name="author" content="Trần Hải Đăng">
 <link rel="canonical" href="http://localhost:1313/MyBlog/posts/java-bai-2/">
-<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.d8fb6d5f3252da2f59968d00ed9fedca38b48671dee1d7f433884d687e10aa61.css" integrity="sha256-2PttXzJS2i9Zlo0A7Z/tyji0hnHe4df0M4hNaH4QqmE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.96f67bd2474ff8799091e33c981b37706e38d04791abde64b3e42b9c9b8a3027.css" integrity="sha256-lvZ70kdP&#43;HmQkeM8mBs3cG440EeRq95ks&#43;QrnJuKMCc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/MyBlog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/MyBlog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/MyBlog/favicon-32x32.png">
@@ -21,7 +21,7 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
 <link rel="mask-icon" href="http://localhost:1313/MyBlog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/MyBlog/posts/java-bai-2/">
+<link rel="alternate" hreflang="vi" href="http://localhost:1313/MyBlog/posts/java-bai-2/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
     }
 
 </script><meta property="og:url" content="http://localhost:1313/MyBlog/posts/java-bai-2/">
-  <meta property="og:site_name" content="Blog Lập Trình Mạng | Trần Hải Đăng">
+  <meta property="og:site_name" content="DangTran | Technical Blog">
   <meta property="og:title" content="Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền">
   <meta property="og:description" content="1. Giới thiệu về lớp InetAddress Trong Java, lớp InetAddress là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.
 2. Phân giải tên miền (DNS Lookup) DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như www.cisco.com) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp InetAddress của Java hỗ trợ chức năng này rất tốt.">
@@ -83,7 +83,15 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-27T13:05:00+07:00">
     <meta property="article:modified_time" content="2025-12-27T13:05:00+07:00">
-<meta name="twitter:card" content="summary">
+    <meta property="article:tag" content="Java Networking">
+    <meta property="article:tag" content="InetAddress">
+    <meta property="article:tag" content="Phân Giải Tên Miền">
+    <meta property="article:tag" content="DNS Lookup Java">
+    <meta property="article:tag" content="Địa Chỉ IP Java">
+    <meta property="article:tag" content="Java Network Programming">
+    <meta property="og:image" content="http://localhost:1313/MyBlog/images/post2.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/MyBlog/images/post2.jpg">
 <meta name="twitter:title" content="Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền">
 <meta name="twitter:description" content="1. Giới thiệu về lớp InetAddress
 Trong Java, lớp InetAddress là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.
@@ -119,12 +127,12 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
   "name": "Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền",
   "description": "1. Giới thiệu về lớp InetAddress Trong Java, lớp InetAddress là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.\n2. Phân giải tên miền (DNS Lookup) DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như www.cisco.com) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp InetAddress của Java hỗ trợ chức năng này rất tốt.\n",
   "keywords": [
-    
+    "Java Networking", "InetAddress", "Phân giải tên miền", "DNS Lookup Java", "Địa chỉ IP Java", "Java Network Programming", "IPv4 IPv6 Java", "getByName", "getLocalHost", "UnknownHostException", "Lập trình mạng Java"
   ],
   "articleBody": "1. Giới thiệu về lớp InetAddress Trong Java, lớp InetAddress là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.\n2. Phân giải tên miền (DNS Lookup) DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như www.cisco.com) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp InetAddress của Java hỗ trợ chức năng này rất tốt.\n3. Ví dụ: Lấy thông tin IP của một tên miền Đoạn mã dưới đây minh họa cách lấy địa chỉ IP của trang www.cisco.com:\nimport java.net.InetAddress; import java.net.UnknownHostException; public class ResolveIP { public static void main(String[] args) { try { // Lấy địa chỉ IP của một tên miền InetAddress ciscoAddress = InetAddress.getByName(\"[www.cisco.com](https://www.cisco.com)\"); System.out.println(\"Tên miền: \" + ciscoAddress.getHostName()); System.out.println(\"Địa chỉ IP: \" + ciscoAddress.getHostAddress()); // Lấy địa chỉ IP của máy cục bộ InetAddress localHost = InetAddress.getLocalHost(); System.out.println(\"Local Host Name: \" + localHost.getHostName()); System.out.println(\"Local IP Address: \" + localHost.getHostAddress()); } catch (UnknownHostException e) { System.err.println(\"Không tìm thấy tên miền hoặc lỗi mạng: \" + e.getMessage()); } } } ",
   "wordCount" : "212",
-  "inLanguage": "en",
-  "datePublished": "2025-12-27T13:05:00+07:00",
+  "inLanguage": "vi",
+  "image":"http://localhost:1313/MyBlog/images/post2.jpg","datePublished": "2025-12-27T13:05:00+07:00",
   "dateModified": "2025-12-27T13:05:00+07:00",
   "author":{
     "@type": "Person",
@@ -136,7 +144,7 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Lập Trình Mạng | Trần Hải Đăng",
+    "name": "DangTran | Technical Blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/MyBlog/favicon.ico"
@@ -149,7 +157,7 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="Blog Lập Trình Mạng | Trần Hải Đăng (Alt + H)">Blog Lập Trình Mạng | Trần Hải Đăng</a>
+            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="DangTran.Dev (Alt + H)">DangTran.Dev</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -175,18 +183,28 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/MyBlog/" title="Home">
-                    <span>Home</span>
+                <a href="http://localhost:1313/MyBlog/posts/" title="Bài viết">
+                    <span>Bài viết</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/MyBlog/categories/" title="Chủ đề">
+                    <span>Chủ đề</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/MyBlog/search/" title="Tìm kiếm">
+                    <span>Tìm kiếm</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/contact/" title="Liên hệ">
+                    <span>Liên hệ</span>
                 </a>
             </li>
         </ul>
@@ -200,10 +218,16 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
     <h1 class="post-title entry-hint-parent">
       Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền
     </h1>
-    <div class="post-meta"><span title='2025-12-27 13:05:00 +0700 +07'>December 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
+    <div class="post-meta"><span title='2025-12-27 13:05:00 +0700 +07'>27 tháng 12, 2025</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
 
 </div>
   </header> 
+<figure class="entry-cover">
+        <a href="http://localhost:1313/MyBlog/images/post2.jpg" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="http://localhost:1313/MyBlog/images/post2.jpg" alt="InetAddress trong Java và quá trình phân giải DNS">
+        </a>
+        <figcaption>Nguồn: Blog Lập Trình Mạng</figcaption>
+</figure>
   <div class="post-content"><h2 id="1-giới-thiệu-về-lớp-inetaddress">1. Giới thiệu về lớp InetAddress<a hidden class="anchor" aria-hidden="true" href="#1-giới-thiệu-về-lớp-inetaddress">#</a></h2>
 <p>Trong Java, lớp <code>InetAddress</code> là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.</p>
 <h2 id="2-phân-giải-tên-miền-dns-lookup">2. Phân giải tên miền (DNS Lookup)<a hidden class="anchor" aria-hidden="true" href="#2-phân-giải-tên-miền-dns-lookup">#</a></h2>
@@ -237,13 +261,24 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://localhost:1313/MyBlog/tags/java-networking/">Java Networking</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/inetaddress/">InetAddress</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/ph%C3%A2n-gi%E1%BA%A3i-t%C3%AAn-mi%E1%BB%81n/">Phân Giải Tên Miền</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/dns-lookup-java/">DNS Lookup Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip-java/">Địa Chỉ IP Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/java-network-programming/">Java Network Programming</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/ipv4-ipv6-java/">IPv4 IPv6 Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/getbyname/">GetByName</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/getlocalhost/">GetLocalHost</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/unknownhostexception/">UnknownHostException</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-java/">Lập Trình Mạng Java</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">Blog Lập Trình Mạng | Trần Hải Đăng</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">DangTran | Technical Blog</a></span> · 
 
     <span>
         Powered by
@@ -316,53 +351,6 @@ DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ 
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 

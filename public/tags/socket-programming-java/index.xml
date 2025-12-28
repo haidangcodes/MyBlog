@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Socket Programming Java on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/socket-programming-java/</link>
+    <description>Recent content in Socket Programming Java on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:10:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/socket-programming-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình TCP Socket: Cơ chế bắt tay 3 bước và truyền tin</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-3/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-3/</guid>
+      <description>&lt;h2 id=&#34;1-bản-chất-của-giao-thức-tcp&#34;&gt;1. Bản chất của giao thức TCP&lt;/h2&gt;
+&lt;p&gt;TCP (Transmission Control Protocol) là giao thức hướng kết nối, đảm bảo dữ liệu truyền đi không bị lỗi, đúng thứ tự và không bị mất mát. Trước khi trao đổi dữ liệu, Client và Server phải thực hiện quy trình &amp;ldquo;Bắt tay 3 bước&amp;rdquo; (3-way handshake) để thiết lập kênh truyền.&lt;/p&gt;
+&lt;h2 id=&#34;2-hình-ảnh-minh-họa-quy-trình&#34;&gt;2. Hình ảnh minh họa quy trình&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Sơ đồ bắt tay 3 bước TCP&#34; loading=&#34;lazy&#34; src=&#34;https://images.viblo.asia/7f6d4d12-9c4c-4c7b-8c8c-123456789abc.png&#34;&gt;
+&lt;em&gt;Hình 1: Quy trình SYN -&amp;gt; SYN-ACK -&amp;gt; ACK trong thiết lập kết nối TCP.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>UDP on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/udp/</link>
+    <description>Recent content in UDP on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:15:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/udp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giao thức UDP và Datagram: Tốc độ tối đa</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-4/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-4/</guid>
+      <description>&lt;h2 id=&#34;1-đặc-điểm-của-udp&#34;&gt;1. Đặc điểm của UDP&lt;/h2&gt;
+&lt;p&gt;Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.&lt;/p&gt;
+&lt;h2 id=&#34;2-ứng-dụng-thực-tế&#34;&gt;2. Ứng dụng thực tế&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livestream video.&lt;/li&gt;
+&lt;li&gt;Game online hành động nhanh.&lt;/li&gt;
+&lt;li&gt;Các hệ thống hội thoại trực tuyến (VoIP).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-lớp-datagrampacket-và-datagramsocket&#34;&gt;3. Lớp DatagramPacket và DatagramSocket&lt;/h2&gt;
+&lt;p&gt;Trong Java, dữ liệu UDP được đóng gói vào các &lt;code&gt;DatagramPacket&lt;/code&gt; và gửi đi qua &lt;code&gt;DatagramSocket&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

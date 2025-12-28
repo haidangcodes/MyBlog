@@ -2,6 +2,14 @@
 date = '2025-12-27T13:15:00+07:00'
 draft = false
 title = 'Giao thức UDP và Datagram: Tốc độ tối đa'
+tags = ["UDP", "User Datagram Protocol", "DatagramSocket Java", "DatagramPacket Java", "Lập trình UDP Java", "Giao thức không kết nối", "UDP vs TCP", "Java Networking", "Livestream UDP", "Game online UDP", "VoIP UDP", "Tốc độ mạng UDP"]
+categories = ["Lập trình mạng", "Java", "Network Programming", "Giao thức mạng"]
+
+[cover]
+    image = "/MyBlog/images/post4.jpg"
+    alt = "Minh họa UDP Datagram và tốc độ truyền tải cao"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 
 ## 1. Đặc điểm của UDP

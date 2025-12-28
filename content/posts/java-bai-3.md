@@ -3,6 +3,14 @@ date = '2025-12-27T13:10:00+07:00'
 draft = false
 title = 'Lập trình TCP Socket: Cơ chế bắt tay 3 bước và truyền tin'
 author = 'Trần Hải Đăng'
+tags = ["TCP Socket", "TCP 3-way handshake", "Bắt tay 3 bước TCP", "Socket Programming Java", "ServerSocket Java", "Socket Java", "Lập trình mạng TCP", "Giao thức TCP", "Client-Server TCP", "Java Networking", "Transmission Control Protocol"]
+categories = ["Lập trình mạng", "Java", "Network Programming", "Giao thức mạng"]
+
+[cover]
+    image = "/MyBlog/images/post3.jpg"
+    alt = "Minh họa bắt tay 3 bước TCP và Socket Programming"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 
 ## 1. Bản chất của giao thức TCP

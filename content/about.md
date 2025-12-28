@@ -4,7 +4,7 @@ date = "2025-12-27T12:44:55+07:00"
 draft = false
 +++
 
-![Trần Hải Đăng](/images/avatar.jpg)
+![Trần Hải Đăng](/MyBlog/images/avatar.png)
 
 ## Thông tin cá nhân
 
@@ -22,7 +22,21 @@ Blog này được xây dựng như một phần của **đồ án học phần*
 
 ---
 
-## Kỹ năng và công cụ
+---
+
+## Chứng chỉ (Cisco Networking Academy)
+
+* **JavaScript Essentials 1** – *Cấp ngày 02/12/2025*
+  * [📄 Xem chi tiết (PDF)](pdf/1.pdf)
+* **JavaScript Essentials 2** – *Cấp ngày 23/12/2025*
+  * [📄 Xem chi tiết (PDF)](pdf/2.pdf)
+* **Networking Basics** – *Cấp ngày 25/11/2025*
+  * [📄 Xem chi tiết (PDF)](pdf/3.pdf)
+
+---
+
+---
+
 
 ### Ngôn ngữ lập trình
 - Java  

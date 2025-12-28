@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="vi" dir="auto" data-theme="auto">
 
 <head><script src="/MyBlog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=MyBlog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Giao thức UDP và Datagram: Tốc độ tối đa | Blog Lập Trình Mạng | Trần Hải Đăng</title>
-<meta name="keywords" content="">
+<title>Giao thức UDP và Datagram: Tốc độ tối đa | DangTran | Technical Blog</title>
+<meta name="keywords" content="UDP, User Datagram Protocol, DatagramSocket Java, DatagramPacket Java, Lập trình UDP Java, Giao thức không kết nối, UDP vs TCP, Java Networking, Livestream UDP, Game online UDP, VoIP UDP, Tốc độ mạng UDP">
 <meta name="description" content="1. Đặc điểm của UDP
 Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.
 2. Ứng dụng thực tế
@@ -19,7 +19,7 @@ Các hệ thống hội thoại trực tuyến (VoIP).
 Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và gửi đi qua DatagramSocket.">
 <meta name="author" content="Trần Hải Đăng">
 <link rel="canonical" href="http://localhost:1313/MyBlog/posts/java-bai-4/">
-<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.d8fb6d5f3252da2f59968d00ed9fedca38b48671dee1d7f433884d687e10aa61.css" integrity="sha256-2PttXzJS2i9Zlo0A7Z/tyji0hnHe4df0M4hNaH4QqmE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/MyBlog/assets/css/stylesheet.96f67bd2474ff8799091e33c981b37706e38d04791abde64b3e42b9c9b8a3027.css" integrity="sha256-lvZ70kdP&#43;HmQkeM8mBs3cG440EeRq95ks&#43;QrnJuKMCc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/MyBlog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/MyBlog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/MyBlog/favicon-32x32.png">
@@ -27,7 +27,7 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
 <link rel="mask-icon" href="http://localhost:1313/MyBlog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/MyBlog/posts/java-bai-4/">
+<link rel="alternate" hreflang="vi" href="http://localhost:1313/MyBlog/posts/java-bai-4/">
 <noscript>
     <style>
         #theme-toggle,
@@ -80,7 +80,7 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
     }
 
 </script><meta property="og:url" content="http://localhost:1313/MyBlog/posts/java-bai-4/">
-  <meta property="og:site_name" content="Blog Lập Trình Mạng | Trần Hải Đăng">
+  <meta property="og:site_name" content="DangTran | Technical Blog">
   <meta property="og:title" content="Giao thức UDP và Datagram: Tốc độ tối đa">
   <meta property="og:description" content="1. Đặc điểm của UDP Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.
 2. Ứng dụng thực tế Livestream video. Game online hành động nhanh. Các hệ thống hội thoại trực tuyến (VoIP). 3. Lớp DatagramPacket và DatagramSocket Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và gửi đi qua DatagramSocket.">
@@ -89,7 +89,15 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-12-27T13:15:00+07:00">
     <meta property="article:modified_time" content="2025-12-27T13:15:00+07:00">
-<meta name="twitter:card" content="summary">
+    <meta property="article:tag" content="UDP">
+    <meta property="article:tag" content="User Datagram Protocol">
+    <meta property="article:tag" content="DatagramSocket Java">
+    <meta property="article:tag" content="DatagramPacket Java">
+    <meta property="article:tag" content="Lập Trình UDP Java">
+    <meta property="article:tag" content="Giao Thức Không Kết Nối">
+    <meta property="og:image" content="http://localhost:1313/MyBlog/images/post4.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/MyBlog/images/post4.jpg">
 <meta name="twitter:title" content="Giao thức UDP và Datagram: Tốc độ tối đa">
 <meta name="twitter:description" content="1. Đặc điểm của UDP
 Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.
@@ -131,12 +139,12 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
   "name": "Giao thức UDP và Datagram: Tốc độ tối đa",
   "description": "1. Đặc điểm của UDP Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.\n2. Ứng dụng thực tế Livestream video. Game online hành động nhanh. Các hệ thống hội thoại trực tuyến (VoIP). 3. Lớp DatagramPacket và DatagramSocket Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và gửi đi qua DatagramSocket.\n",
   "keywords": [
-    
+    "UDP", "User Datagram Protocol", "DatagramSocket Java", "DatagramPacket Java", "Lập trình UDP Java", "Giao thức không kết nối", "UDP vs TCP", "Java Networking", "Livestream UDP", "Game online UDP", "VoIP UDP", "Tốc độ mạng UDP"
   ],
   "articleBody": "1. Đặc điểm của UDP Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.\n2. Ứng dụng thực tế Livestream video. Game online hành động nhanh. Các hệ thống hội thoại trực tuyến (VoIP). 3. Lớp DatagramPacket và DatagramSocket Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và gửi đi qua DatagramSocket.\n",
   "wordCount" : "82",
-  "inLanguage": "en",
-  "datePublished": "2025-12-27T13:15:00+07:00",
+  "inLanguage": "vi",
+  "image":"http://localhost:1313/MyBlog/images/post4.jpg","datePublished": "2025-12-27T13:15:00+07:00",
   "dateModified": "2025-12-27T13:15:00+07:00",
   "author":{
     "@type": "Person",
@@ -148,7 +156,7 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Lập Trình Mạng | Trần Hải Đăng",
+    "name": "DangTran | Technical Blog",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/MyBlog/favicon.ico"
@@ -161,7 +169,7 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="Blog Lập Trình Mạng | Trần Hải Đăng (Alt + H)">Blog Lập Trình Mạng | Trần Hải Đăng</a>
+            <a href="http://localhost:1313/MyBlog/" accesskey="h" title="DangTran.Dev (Alt + H)">DangTran.Dev</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -187,18 +195,28 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/MyBlog/" title="Home">
-                    <span>Home</span>
+                <a href="http://localhost:1313/MyBlog/posts/" title="Bài viết">
+                    <span>Bài viết</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/MyBlog/categories/" title="Chủ đề">
+                    <span>Chủ đề</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/MyBlog/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/MyBlog/search/" title="Tìm kiếm">
+                    <span>Tìm kiếm</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/MyBlog/contact/" title="Liên hệ">
+                    <span>Liên hệ</span>
                 </a>
             </li>
         </ul>
@@ -212,10 +230,16 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
     <h1 class="post-title entry-hint-parent">
       Giao thức UDP và Datagram: Tốc độ tối đa
     </h1>
-    <div class="post-meta"><span title='2025-12-27 13:15:00 +0700 +07'>December 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
+    <div class="post-meta"><span title='2025-12-27 13:15:00 +0700 +07'>27 tháng 12, 2025</span>&nbsp;·&nbsp;<span>Trần Hải Đăng</span>
 
 </div>
   </header> 
+<figure class="entry-cover">
+        <a href="http://localhost:1313/MyBlog/images/post4.jpg" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="http://localhost:1313/MyBlog/images/post4.jpg" alt="Minh họa UDP Datagram và tốc độ truyền tải cao">
+        </a>
+        <figcaption>Nguồn: Blog Lập Trình Mạng</figcaption>
+</figure>
   <div class="post-content"><h2 id="1-đặc-điểm-của-udp">1. Đặc điểm của UDP<a hidden class="anchor" aria-hidden="true" href="#1-đặc-điểm-của-udp">#</a></h2>
 <p>Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.</p>
 <h2 id="2-ứng-dụng-thực-tế">2. Ứng dụng thực tế<a hidden class="anchor" aria-hidden="true" href="#2-ứng-dụng-thực-tế">#</a></h2>
@@ -232,13 +256,25 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://localhost:1313/MyBlog/tags/udp/">UDP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/user-datagram-protocol/">User Datagram Protocol</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/datagramsocket-java/">DatagramSocket Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/datagrampacket-java/">DatagramPacket Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-udp-java/">Lập Trình UDP Java</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-kh%C3%B4ng-k%E1%BA%BFt-n%E1%BB%91i/">Giao Thức Không Kết Nối</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/udp-vs-tcp/">UDP vs TCP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/java-networking/">Java Networking</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/livestream-udp/">Livestream UDP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/game-online-udp/">Game Online UDP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/voip-udp/">VoIP UDP</a></li>
+      <li><a href="http://localhost:1313/MyBlog/tags/t%E1%BB%91c-%C4%91%E1%BB%99-m%E1%BA%A1ng-udp/">Tốc Độ Mạng UDP</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">Blog Lập Trình Mạng | Trần Hải Đăng</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/MyBlog/">DangTran | Technical Blog</a></span> · 
 
     <span>
         Powered by
@@ -311,53 +347,6 @@ Trong Java, dữ liệu UDP được đóng gói vào các DatagramPacket và g�
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 

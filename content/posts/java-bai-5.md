@@ -1,7 +1,15 @@
 +++
 date = '2025-12-27T13:20:00+07:00'
 draft = false
-title = 'Xử lý đa luồng (Multi-threading) cho Server'
+title = 'Xử lý đa luồng (Multi-threading) cho Server TCP trong Java'
+tags = ["Multi-threading Java", "Đa luồng Server", "Thread per Client", "ServerSocket Java", "Socket Programming đa luồng", "Java Networking", "Concurrent Server Java", "Xử lý nhiều Client đồng thời", "Thread Pool Java", "ExecutorService Server", "Lập trình mạng đa luồng"]
+categories = ["Lập trình mạng", "Java", "Network Programming", "Đa luồng"]
+
+[cover]
+    image = "/MyBlog/images/post5.jpg"
+    alt = "Minh họa Server đa luồng xử lý nhiều Client đồng thời"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 
 ## 1. Tại sao cần đa luồng?

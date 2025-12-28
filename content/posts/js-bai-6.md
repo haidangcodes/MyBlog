@@ -4,6 +4,14 @@ date = '2025-12-27T13:25:00+07:00'
 draft = false
 title = 'Lập trình bất đồng bộ trong JavaScript: Giải pháp xử lý mạng mượt mà'
 author = 'Trần Hải Đăng'
+tags = ["JavaScript Asynchronous", "Async Await JavaScript", "Promise JavaScript", "Event Loop JS", "Lập trình bất đồng bộ JS", "Fetch API JS", "Node.js Async", "Callback Hell", "Non-blocking IO", "JavaScript Networking", "Frontend Backend Async"]
+categories = ["JavaScript", "Lập trình mạng", "Frontend", "Node.js"]
+
+[cover]
+    image = "/MyBlog/images/post6.jpg"
+    alt = "Minh họa Async/Await và Event Loop trong JavaScript"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 ### Bài 6: Lập trình bất đồng bộ trong JavaScript (Async/Await)
 **Đường dẫn file:** `content/posts/js-async-await.md`

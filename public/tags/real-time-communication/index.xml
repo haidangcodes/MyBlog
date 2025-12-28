@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Real-Time Communication on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/real-time-communication/</link>
+    <description>Recent content in Real-Time Communication on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:35:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/real-time-communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebSockets: Giao tiếp hai chiều thời gian thực</title>
+      <link>http://localhost:1313/MyBlog/posts/js-bai-8/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/js-bai-8/</guid>
+      <description>&lt;h3 id=&#34;bài-8-websockets-giao-tiếp-hai-chiều&#34;&gt;Bài 8: WebSockets: Giao tiếp hai chiều&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;File:&lt;/strong&gt; &lt;code&gt;js-websocket.md&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-bối-cảnh-tại-sao-javascript-lại-thống-trị-real-time-networking&#34;&gt;1. Bối cảnh: Tại sao JavaScript lại thống trị real-time networking?&lt;/h3&gt;
+&lt;p&gt;JavaScript có lợi thế kép:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Native browser APIs&lt;/strong&gt; mạnh mẽ (WebSockets, WebRTC, WebTransport, fetch, Streams API&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Runtime server-side&lt;/strong&gt; đa dạng, cho phép full-stack JS với hiệu suất cao&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Năm 2025, hơn &lt;strong&gt;98%&lt;/strong&gt; website sử dụng JavaScript (theo W3Techs), và nó là lựa chọn hàng đầu cho các ứng dụng chat, gaming, live streaming, collaborative tools, IoT dashboard.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

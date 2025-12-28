@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java Network Programming on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/java-network-programming/</link>
+    <description>Recent content in Java Network Programming on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:05:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/java-network-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-2/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-2/</guid>
+      <description>&lt;h2 id=&#34;1-giới-thiệu-về-lớp-inetaddress&#34;&gt;1. Giới thiệu về lớp InetAddress&lt;/h2&gt;
+&lt;p&gt;Trong Java, lớp &lt;code&gt;InetAddress&lt;/code&gt; là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.&lt;/p&gt;
+&lt;h2 id=&#34;2-phân-giải-tên-miền-dns-lookup&#34;&gt;2. Phân giải tên miền (DNS Lookup)&lt;/h2&gt;
+&lt;p&gt;DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như &lt;code&gt;www.cisco.com&lt;/code&gt;) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp &lt;code&gt;InetAddress&lt;/code&gt; của Java hỗ trợ chức năng này rất tốt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

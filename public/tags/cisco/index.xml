@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cisco on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/tags/cisco/</link>
+    <description>Recent content in Cisco on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình mạng là gì? Góc nhìn từ kiến trúc Cisco</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-1/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-1/</guid>
+      <description>&lt;h2 id=&#34;1-giới-thiệu-về-lập-trình-mạng&#34;&gt;1. Giới thiệu về Lập trình mạng&lt;/h2&gt;
+&lt;p&gt;Lập trình mạng là quá trình viết mã để xây dựng các ứng dụng có khả năng giao tiếp qua mạng máy tính. Điều này bao gồm việc gửi và nhận dữ liệu giữa các máy tính, từ đó tạo ra các dịch vụ như duyệt web, trò chuyện, chơi game trực tuyến hay điều khiển thiết bị từ xa.&lt;/p&gt;
+&lt;h2 id=&#34;2-mô-hình-client-server-cơ-bản&#34;&gt;2. Mô hình Client-Server cơ bản&lt;/h2&gt;
+&lt;p&gt;Mô hình Client-Server là nền tảng của hầu hết các ứng dụng mạng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

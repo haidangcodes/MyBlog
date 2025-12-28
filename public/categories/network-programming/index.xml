@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Network Programming on DangTran | Technical Blog</title>
+    <link>http://localhost:1313/MyBlog/categories/network-programming/</link>
+    <description>Recent content in Network Programming on DangTran | Technical Blog</description>
+    <generator>Hugo -- 0.153.3</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:20:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/categories/network-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xử lý đa luồng (Multi-threading) cho Server TCP trong Java</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-5/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-5/</guid>
+      <description>&lt;h2 id=&#34;1-tại-sao-cần-đa-luồng&#34;&gt;1. Tại sao cần đa luồng?&lt;/h2&gt;
+&lt;p&gt;Một Server thông thường chỉ xử lý được một Client tại một thời điểm. Để phục vụ hàng ngàn người dùng cùng lúc, chúng ta cần kỹ thuật Multi-threading (Đa luồng).&lt;/p&gt;
+&lt;h2 id=&#34;2-cách-hoạt-động&#34;&gt;2. Cách hoạt động&lt;/h2&gt;
+&lt;p&gt;Khi một Client mới kết nối, Server sẽ tạo ra một luồng (&lt;code&gt;Thread&lt;/code&gt;) riêng để phục vụ Client đó, trong khi luồng chính tiếp tục đợi kết nối tiếp theo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giao thức UDP và Datagram: Tốc độ tối đa</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-4/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-4/</guid>
+      <description>&lt;h2 id=&#34;1-đặc-điểm-của-udp&#34;&gt;1. Đặc điểm của UDP&lt;/h2&gt;
+&lt;p&gt;Khác với TCP, UDP (User Datagram Protocol) không cần thiết lập kết nối trước khi gửi dữ liệu. Điều này giúp tốc độ truyền tải cực nhanh nhưng không đảm bảo độ tin cậy tuyệt đối.&lt;/p&gt;
+&lt;h2 id=&#34;2-ứng-dụng-thực-tế&#34;&gt;2. Ứng dụng thực tế&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livestream video.&lt;/li&gt;
+&lt;li&gt;Game online hành động nhanh.&lt;/li&gt;
+&lt;li&gt;Các hệ thống hội thoại trực tuyến (VoIP).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-lớp-datagrampacket-và-datagramsocket&#34;&gt;3. Lớp DatagramPacket và DatagramSocket&lt;/h2&gt;
+&lt;p&gt;Trong Java, dữ liệu UDP được đóng gói vào các &lt;code&gt;DatagramPacket&lt;/code&gt; và gửi đi qua &lt;code&gt;DatagramSocket&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình TCP Socket: Cơ chế bắt tay 3 bước và truyền tin</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-3/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-3/</guid>
+      <description>&lt;h2 id=&#34;1-bản-chất-của-giao-thức-tcp&#34;&gt;1. Bản chất của giao thức TCP&lt;/h2&gt;
+&lt;p&gt;TCP (Transmission Control Protocol) là giao thức hướng kết nối, đảm bảo dữ liệu truyền đi không bị lỗi, đúng thứ tự và không bị mất mát. Trước khi trao đổi dữ liệu, Client và Server phải thực hiện quy trình &amp;ldquo;Bắt tay 3 bước&amp;rdquo; (3-way handshake) để thiết lập kênh truyền.&lt;/p&gt;
+&lt;h2 id=&#34;2-hình-ảnh-minh-họa-quy-trình&#34;&gt;2. Hình ảnh minh họa quy trình&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Sơ đồ bắt tay 3 bước TCP&#34; loading=&#34;lazy&#34; src=&#34;https://images.viblo.asia/7f6d4d12-9c4c-4c7b-8c8c-123456789abc.png&#34;&gt;
+&lt;em&gt;Hình 1: Quy trình SYN -&amp;gt; SYN-ACK -&amp;gt; ACK trong thiết lập kết nối TCP.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền</title>
+      <link>http://localhost:1313/MyBlog/posts/java-bai-2/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/java-bai-2/</guid>
+      <description>&lt;h2 id=&#34;1-giới-thiệu-về-lớp-inetaddress&#34;&gt;1. Giới thiệu về lớp InetAddress&lt;/h2&gt;
+&lt;p&gt;Trong Java, lớp &lt;code&gt;InetAddress&lt;/code&gt; là đại diện cho địa chỉ giao thức Internet (IP address). Nó cung cấp các phương thức để làm việc với cả địa chỉ IPv4 và IPv6, giúp chúng ta thực hiện các tác vụ như phân giải tên miền (DNS lookup) hoặc kiểm tra địa chỉ IP.&lt;/p&gt;
+&lt;h2 id=&#34;2-phân-giải-tên-miền-dns-lookup&#34;&gt;2. Phân giải tên miền (DNS Lookup)&lt;/h2&gt;
+&lt;p&gt;DNS (Domain Name System) là dịch vụ giúp chuyển đổi tên miền dễ nhớ (như &lt;code&gt;www.cisco.com&lt;/code&gt;) thành địa chỉ IP mà máy tính có thể hiểu được. Lớp &lt;code&gt;InetAddress&lt;/code&gt; của Java hỗ trợ chức năng này rất tốt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

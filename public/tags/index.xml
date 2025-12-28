@@ -1,11 +1,698 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Blog Lập Trình Mạng | Trần Hải Đăng</title>
+    <title>Tags on DangTran | Technical Blog</title>
     <link>http://localhost:1313/MyBlog/tags/</link>
-    <description>Recent content in Tags on Blog Lập Trình Mạng | Trần Hải Đăng</description>
+    <description>Recent content in Tags on DangTran | Technical Blog</description>
     <generator>Hugo -- 0.153.3</generator>
     <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 13:40:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/MyBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend JavaScript</title>
+      <link>http://localhost:1313/MyBlog/tags/backend-javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/backend-javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bun</title>
+      <link>http://localhost:1313/MyBlog/tags/bun/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/bun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bun 1.x</title>
+      <link>http://localhost:1313/MyBlog/tags/bun-1.x/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/bun-1.x/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bun vs Deno vs Node</title>
+      <link>http://localhost:1313/MyBlog/tags/bun-vs-deno-vs-node/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/bun-vs-deno-vs-node/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deno</title>
+      <link>http://localhost:1313/MyBlog/tags/deno/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/deno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deno 2</title>
+      <link>http://localhost:1313/MyBlog/tags/deno-2/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/deno-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript Runtime</title>
+      <link>http://localhost:1313/MyBlog/tags/javascript-runtime/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/javascript-runtime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>http://localhost:1313/MyBlog/tags/node.js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js Alternative</title>
+      <link>http://localhost:1313/MyBlog/tags/node.js-alternative/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/node.js-alternative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance Benchmark 2025</title>
+      <link>http://localhost:1313/MyBlog/tags/performance-benchmark-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/performance-benchmark-2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>So Sánh Runtime 2025</title>
+      <link>http://localhost:1313/MyBlog/tags/so-s%C3%A1nh-runtime-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/so-s%C3%A1nh-runtime-2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript Runtime</title>
+      <link>http://localhost:1313/MyBlog/tags/typescript-runtime/</link>
+      <pubDate>Sat, 27 Dec 2025 13:40:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/typescript-runtime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chat App WebSocket</title>
+      <link>http://localhost:1313/MyBlog/tags/chat-app-websocket/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/chat-app-websocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Backend Real-Time</title>
+      <link>http://localhost:1313/MyBlog/tags/frontend-backend-real-time/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/frontend-backend-real-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giao Tiếp Hai Chiều</title>
+      <link>http://localhost:1313/MyBlog/tags/giao-ti%E1%BA%BFp-hai-chi%E1%BB%81u/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/giao-ti%E1%BA%BFp-hai-chi%E1%BB%81u/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Live Update JS</title>
+      <link>http://localhost:1313/MyBlog/tags/live-update-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/live-update-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js WebSocket</title>
+      <link>http://localhost:1313/MyBlog/tags/node.js-websocket/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/node.js-websocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Push Data Real-Time</title>
+      <link>http://localhost:1313/MyBlog/tags/push-data-real-time/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/push-data-real-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-Time Communication</title>
+      <link>http://localhost:1313/MyBlog/tags/real-time-communication/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/real-time-communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket.io Alternative</title>
+      <link>http://localhost:1313/MyBlog/tags/socket.io-alternative/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/socket.io-alternative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebSocket</title>
+      <link>http://localhost:1313/MyBlog/tags/websocket/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/websocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebSocket Client Server</title>
+      <link>http://localhost:1313/MyBlog/tags/websocket-client-server/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/websocket-client-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebSocket JavaScript</title>
+      <link>http://localhost:1313/MyBlog/tags/websocket-javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/websocket-javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Integration JS</title>
+      <link>http://localhost:1313/MyBlog/tags/api-integration-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/api-integration-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async Await Fetch</title>
+      <link>http://localhost:1313/MyBlog/tags/async-await-fetch/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/async-await-fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fetch API</title>
+      <link>http://localhost:1313/MyBlog/tags/fetch-api/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/fetch-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Networking</title>
+      <link>http://localhost:1313/MyBlog/tags/frontend-networking/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/frontend-networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GET POST Fetch</title>
+      <link>http://localhost:1313/MyBlog/tags/get-post-fetch/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/get-post-fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP Request JS</title>
+      <link>http://localhost:1313/MyBlog/tags/http-request-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/http-request-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript Fetch</title>
+      <link>http://localhost:1313/MyBlog/tags/javascript-fetch/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/javascript-fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript Modern</title>
+      <link>http://localhost:1313/MyBlog/tags/javascript-modern/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/javascript-modern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promise Fetch</title>
+      <link>http://localhost:1313/MyBlog/tags/promise-fetch/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/promise-fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST API JavaScript</title>
+      <link>http://localhost:1313/MyBlog/tags/rest-api-javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/rest-api-javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development JS</title>
+      <link>http://localhost:1313/MyBlog/tags/web-development-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/web-development-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async Await JavaScript</title>
+      <link>http://localhost:1313/MyBlog/tags/async-await-javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/async-await-javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Callback Hell</title>
+      <link>http://localhost:1313/MyBlog/tags/callback-hell/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/callback-hell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event Loop JS</title>
+      <link>http://localhost:1313/MyBlog/tags/event-loop-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/event-loop-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fetch API JS</title>
+      <link>http://localhost:1313/MyBlog/tags/fetch-api-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/fetch-api-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Backend Async</title>
+      <link>http://localhost:1313/MyBlog/tags/frontend-backend-async/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/frontend-backend-async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript Asynchronous</title>
+      <link>http://localhost:1313/MyBlog/tags/javascript-asynchronous/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/javascript-asynchronous/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript Networking</title>
+      <link>http://localhost:1313/MyBlog/tags/javascript-networking/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/javascript-networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Bất Đồng Bộ JS</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-js/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js Async</title>
+      <link>http://localhost:1313/MyBlog/tags/node.js-async/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/node.js-async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Non-Blocking IO</title>
+      <link>http://localhost:1313/MyBlog/tags/non-blocking-io/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/non-blocking-io/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promise JavaScript</title>
+      <link>http://localhost:1313/MyBlog/tags/promise-javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 13:25:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/promise-javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrent Server Java</title>
+      <link>http://localhost:1313/MyBlog/tags/concurrent-server-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/concurrent-server-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Đa Luồng Server</title>
+      <link>http://localhost:1313/MyBlog/tags/%C4%91a-lu%E1%BB%93ng-server/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/%C4%91a-lu%E1%BB%93ng-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ExecutorService Server</title>
+      <link>http://localhost:1313/MyBlog/tags/executorservice-server/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/executorservice-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java Networking</title>
+      <link>http://localhost:1313/MyBlog/tags/java-networking/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/java-networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Mạng Đa Luồng</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-%C4%91a-lu%E1%BB%93ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-%C4%91a-lu%E1%BB%93ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Threading Java</title>
+      <link>http://localhost:1313/MyBlog/tags/multi-threading-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/multi-threading-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ServerSocket Java</title>
+      <link>http://localhost:1313/MyBlog/tags/serversocket-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/serversocket-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket Programming Đa Luồng</title>
+      <link>http://localhost:1313/MyBlog/tags/socket-programming-%C4%91a-lu%E1%BB%93ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/socket-programming-%C4%91a-lu%E1%BB%93ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thread per Client</title>
+      <link>http://localhost:1313/MyBlog/tags/thread-per-client/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/thread-per-client/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thread Pool Java</title>
+      <link>http://localhost:1313/MyBlog/tags/thread-pool-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/thread-pool-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xử Lý Nhiều Client Đồng Thời</title>
+      <link>http://localhost:1313/MyBlog/tags/x%E1%BB%AD-l%C3%BD-nhi%E1%BB%81u-client-%C4%91%E1%BB%93ng-th%E1%BB%9Di/</link>
+      <pubDate>Sat, 27 Dec 2025 13:20:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/x%E1%BB%AD-l%C3%BD-nhi%E1%BB%81u-client-%C4%91%E1%BB%93ng-th%E1%BB%9Di/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DatagramPacket Java</title>
+      <link>http://localhost:1313/MyBlog/tags/datagrampacket-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/datagrampacket-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DatagramSocket Java</title>
+      <link>http://localhost:1313/MyBlog/tags/datagramsocket-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/datagramsocket-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Online UDP</title>
+      <link>http://localhost:1313/MyBlog/tags/game-online-udp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/game-online-udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giao Thức Không Kết Nối</title>
+      <link>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-kh%C3%B4ng-k%E1%BA%BFt-n%E1%BB%91i/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-kh%C3%B4ng-k%E1%BA%BFt-n%E1%BB%91i/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình UDP Java</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-udp-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-udp-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Livestream UDP</title>
+      <link>http://localhost:1313/MyBlog/tags/livestream-udp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/livestream-udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tốc Độ Mạng UDP</title>
+      <link>http://localhost:1313/MyBlog/tags/t%E1%BB%91c-%C4%91%E1%BB%99-m%E1%BA%A1ng-udp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/t%E1%BB%91c-%C4%91%E1%BB%99-m%E1%BA%A1ng-udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UDP</title>
+      <link>http://localhost:1313/MyBlog/tags/udp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UDP vs TCP</title>
+      <link>http://localhost:1313/MyBlog/tags/udp-vs-tcp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/udp-vs-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Datagram Protocol</title>
+      <link>http://localhost:1313/MyBlog/tags/user-datagram-protocol/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/user-datagram-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VoIP UDP</title>
+      <link>http://localhost:1313/MyBlog/tags/voip-udp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/voip-udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bắt Tay 3 Bước TCP</title>
+      <link>http://localhost:1313/MyBlog/tags/b%E1%BA%AFt-tay-3-b%C6%B0%E1%BB%9Bc-tcp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/b%E1%BA%AFt-tay-3-b%C6%B0%E1%BB%9Bc-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Client-Server TCP</title>
+      <link>http://localhost:1313/MyBlog/tags/client-server-tcp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/client-server-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giao Thức TCP</title>
+      <link>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-tcp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/giao-th%E1%BB%A9c-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Mạng TCP</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-tcp/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket Java</title>
+      <link>http://localhost:1313/MyBlog/tags/socket-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/socket-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket Programming Java</title>
+      <link>http://localhost:1313/MyBlog/tags/socket-programming-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/socket-programming-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TCP 3-Way Handshake</title>
+      <link>http://localhost:1313/MyBlog/tags/tcp-3-way-handshake/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/tcp-3-way-handshake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TCP Socket</title>
+      <link>http://localhost:1313/MyBlog/tags/tcp-socket/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/tcp-socket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transmission Control Protocol</title>
+      <link>http://localhost:1313/MyBlog/tags/transmission-control-protocol/</link>
+      <pubDate>Sat, 27 Dec 2025 13:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/transmission-control-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNS Lookup Java</title>
+      <link>http://localhost:1313/MyBlog/tags/dns-lookup-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/dns-lookup-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Địa Chỉ IP Java</title>
+      <link>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GetByName</title>
+      <link>http://localhost:1313/MyBlog/tags/getbyname/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/getbyname/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GetLocalHost</title>
+      <link>http://localhost:1313/MyBlog/tags/getlocalhost/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/getlocalhost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InetAddress</title>
+      <link>http://localhost:1313/MyBlog/tags/inetaddress/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/inetaddress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPv4 IPv6 Java</title>
+      <link>http://localhost:1313/MyBlog/tags/ipv4-ipv6-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/ipv4-ipv6-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java Network Programming</title>
+      <link>http://localhost:1313/MyBlog/tags/java-network-programming/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/java-network-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Mạng Java</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-java/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng-java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phân Giải Tên Miền</title>
+      <link>http://localhost:1313/MyBlog/tags/ph%C3%A2n-gi%E1%BA%A3i-t%C3%AAn-mi%E1%BB%81n/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/ph%C3%A2n-gi%E1%BA%A3i-t%C3%AAn-mi%E1%BB%81n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UnknownHostException</title>
+      <link>http://localhost:1313/MyBlog/tags/unknownhostexception/</link>
+      <pubDate>Sat, 27 Dec 2025 13:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/unknownhostexception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cisco</title>
+      <link>http://localhost:1313/MyBlog/tags/cisco/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/cisco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Client-Server</title>
+      <link>http://localhost:1313/MyBlog/tags/client-server/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/client-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Địa Chỉ IP</title>
+      <link>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/%C4%91%E1%BB%8Ba-ch%E1%BB%89-ip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kiến Trúc Mạng Cisco</title>
+      <link>http://localhost:1313/MyBlog/tags/ki%E1%BA%BFn-tr%C3%BAc-m%E1%BA%A1ng-cisco/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/ki%E1%BA%BFn-tr%C3%BAc-m%E1%BA%A1ng-cisco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình Mạng</title>
+      <link>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mạng Máy Tính Cơ Bản</title>
+      <link>http://localhost:1313/MyBlog/tags/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mô Hình Client-Server</title>
+      <link>http://localhost:1313/MyBlog/tags/m%C3%B4-h%C3%ACnh-client-server/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/m%C3%B4-h%C3%ACnh-client-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Programming</title>
+      <link>http://localhost:1313/MyBlog/tags/network-programming/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/network-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Port Mạng</title>
+      <link>http://localhost:1313/MyBlog/tags/port-m%E1%BA%A1ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/port-m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SDN</title>
+      <link>http://localhost:1313/MyBlog/tags/sdn/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/sdn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Defined Networking</title>
+      <link>http://localhost:1313/MyBlog/tags/software-defined-networking/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/software-defined-networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tự Động Hóa Mạng</title>
+      <link>http://localhost:1313/MyBlog/tags/t%E1%BB%B1-%C4%91%E1%BB%99ng-h%C3%B3a-m%E1%BA%A1ng/</link>
+      <pubDate>Sat, 27 Dec 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/MyBlog/tags/t%E1%BB%B1-%C4%91%E1%BB%99ng-h%C3%B3a-m%E1%BA%A1ng/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

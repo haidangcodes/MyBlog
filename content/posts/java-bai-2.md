@@ -2,6 +2,14 @@
 date = '2025-12-27T13:05:00+07:00'
 draft = false
 title = 'Java Networking: Tìm hiểu về lớp InetAddress và phân giải tên miền'
+tags = ["Java Networking", "InetAddress", "Phân giải tên miền", "DNS Lookup Java", "Địa chỉ IP Java", "Java Network Programming", "IPv4 IPv6 Java", "getByName", "getLocalHost", "UnknownHostException", "Lập trình mạng Java"]
+categories = ["Java", "Lập trình mạng", "Network Programming"]
+
+[cover]
+    image = "/MyBlog/images/post2.jpg"
+    alt = "InetAddress trong Java và quá trình phân giải DNS"
+    caption = "Nguồn: Blog Lập Trình Mạng"
+    relative = false
 +++
 
 ## 1. Giới thiệu về lớp InetAddress
